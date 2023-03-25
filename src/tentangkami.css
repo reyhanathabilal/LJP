@@ -110,7 +110,7 @@
 }
 
 .hero .content {
-  padding: 11rem 7%;
+  padding: 7rem 7%;
   max-width: 100%;
   text-align: center;
   position: relative;
@@ -159,6 +159,8 @@
     width: 110px;
     height: 90px;
   }
+
+ 
 }
 
 /* Tablet */
@@ -183,6 +185,10 @@
       width: 30rem;
       height: 100vh;
       transition: 0.5s;
+    }
+
+    .hero .content {
+      padding: 11rem 7%
     }
   
     .navbar .navbar-nav.active {
@@ -212,5 +218,9 @@
     .navbar .navbar-logo img {
       width: 55px;
       height: 55px;
+    }
+
+    .hero .content {
+      padding: 15rem 7%;
     }
   }
