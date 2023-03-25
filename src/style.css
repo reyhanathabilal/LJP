@@ -1,5 +1,5 @@
 :root {
-  --primary: #005ff8;
+  --primary: #38bdf8;
   --bg: #f1f1f1;
 }
 
@@ -39,6 +39,23 @@ img {
 }
 
 .navbar .navbar-logo img {
+  width: 90px;
+  height: 85px;
+}
+
+.navbar2 {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 5000;
+}
+
+.navbar2 .navbar-logo2 {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
   width: 90px;
   height: 85px;
 }
@@ -175,7 +192,7 @@ img {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #04b0ff;
+  background-color: #38bdf8;
 }
 
 /* When you mouse over the container, fade in the overlay title */

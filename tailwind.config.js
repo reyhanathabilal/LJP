@@ -9,7 +9,12 @@ module.exports = {
     colors: {
       'midnight': '#121063',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background-aboutus': "url('./asset/Background About Us.png')",
+        'background-black': "url('./asset/black.jpg')",
+      }
+    },
   },
   plugins: [require("tw-elements/dist/plugin")],
 }
