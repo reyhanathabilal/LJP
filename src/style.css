@@ -43,22 +43,7 @@ img {
   height: 85px;
 }
 
-.navbar2 {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  z-index: 5000;
-}
 
-.navbar2 .navbar-logo2 {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  width: 90px;
-  height: 85px;
-}
 
 .navbar .navbar-nav a {
   color: #111111;
