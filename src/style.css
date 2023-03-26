@@ -111,9 +111,24 @@ img {
 .hero .cta {
   margin-top: 2rem;
   display: inline-block;
-  padding: 0.8rem 3rem;
+  padding: 0.8rem 2rem;
   font-size: 1.2rem;
   color: #f1f1f1;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 1);
+}
+.cta-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.4rem 1.5rem;
+  font-size: 1.2rem;
+  color: white;
   background-color: var(--primary);
   border-radius: 0.5rem;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 1);
@@ -252,6 +267,9 @@ img {
   .hero {
     min-height: 40vh;
   }
+  .hero .content p {
+    font-size:3rem;
+  }
 }
 /* Mobile */
 @media (max-width: 450px) {
@@ -268,7 +286,7 @@ img {
   }
 
   .hero .content p {
-    font-size: 10px;
+    font-size: 2.5rem;
   }
 
   .ourpartner {
