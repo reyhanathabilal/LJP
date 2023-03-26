@@ -81,12 +81,22 @@ img {
 /* hero section */
 .hero {
   min-height: 100vh;
-  background-image: url("../asset/hero 2 1.png");
+  background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9,30,0.4)), url("../asset/hero 2 1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
 }
+
+.background {
+  background-image: url("../asset/Background About US.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  
+}
+
 .hero .content {
   padding: 15rem 7%;
   max-width: 100%;
@@ -293,5 +303,13 @@ img {
     max-width: 50vh;
     height: 10px;
     background-repeat: no-repeat;
+  }
+
+  .hero .content {
+    padding: 12rem 11%;
+  }
+
+  .background {
+    background-position: right;
   }
 }
