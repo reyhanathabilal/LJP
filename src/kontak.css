@@ -269,6 +269,12 @@
     }
 
     .hero .content {
-      padding: 15rem 7%;
+      padding: 17.5rem 7%;
     }
+
+    .hero {
+      height:350px;
+    }
+    
+    
   }

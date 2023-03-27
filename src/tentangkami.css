@@ -230,5 +230,10 @@
 
     .background {
     background-position: right;
-  }
+    }
+
+    .hero {
+      height:350px;
+    }
+
   }

@@ -80,8 +80,10 @@ img {
 
 /* hero section */
 .hero {
-  min-height: 100vh;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9,30,0.4)), url("../asset/hero 2 1.png");
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+    url("../asset/hero 2 1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -94,11 +96,10 @@ img {
   background-size: cover;
   background-position: bottom;
   position: relative;
-  
 }
 
 .hero .content {
-  padding: 17rem 7%;
+  padding: 22rem 7%;
   max-width: 100%;
   text-align: center;
   position: relative;
@@ -210,7 +211,7 @@ img {
   align-items: center;
 }
 .promo .promo-img img {
-  width: 100%;
+  width: 60%;
 }
 .promo h2 {
   text-align: center;
@@ -229,6 +230,12 @@ img {
   .navbar .navbar-logo img {
     width: 110px;
     height: 90px;
+  }
+  .hero .content {
+    padding: 18rem 7%;
+  }
+  .hero .content p{
+    font-size: 3.5rem;
   }
 }
 
@@ -275,11 +282,23 @@ img {
     transform: scaleX(0.2);
   }
   .hero {
-    min-height: 40vh;
+    height: 60vh;
   }
   .hero .content p {
-    font-size:3rem;
+    font-size: 3rem;
   }
+
+  .hero .content {
+    padding: 15rem 7%;
+  }
+}
+
+/* Ipad */
+@media (max-width: 768px) {
+ .hero {
+  height: 60vh;
+ }
+
 }
 /* Mobile */
 @media (max-width: 450px) {
@@ -290,9 +309,8 @@ img {
     width: 55px;
     height: 55px;
   }
-
   .hero {
-    height: 20px;
+    height: 45vh;
   }
 
   .hero .content p {
@@ -306,10 +324,20 @@ img {
   }
 
   .hero .content {
-    padding: 12rem 11%;
+    padding: 16rem 7%;
   }
 
   .background {
     background-position: right;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero .content {
+    padding: 14rem 7%;
+  }
+
+  .hero {
+    height: 50vh;
   }
 }
